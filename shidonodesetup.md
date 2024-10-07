@@ -103,13 +103,7 @@ PEERS=7ed728831ff441d18a8556b64afcaebc31b68c74@3.76.57.158:26656,f28f693053306fb
 sed -i.bak -e "s/^persistent_peers *=.*/persistent_peers = \"$PEERS\"/" $HOME/.shidod/config/config.toml
 ```
 # Shido Snapshot Server Configuration
-## Install Snapd and LZ4
-Ensure that snapd and lz4 are installed for snapshot handling:
-```
-sudo apt update
-sudo apt install snapd -y
-sudo snap install lz4
-```
+
 ## Pruning Settings
 Customize pruning settings to manage database size:
 ```
