@@ -7,14 +7,14 @@ Migrating your Shido validator to a new server requires careful execution to pre
 Before initiating the migration, ensure you have the following:
 
 - **Access to Both Servers:** You should have SSH or physical access to both the old and new servers.
-- **Shido Node Setup on New Server:** The new server should have the Shido node installed and configured as per the [Shido Node Setup Guide](https://github.com/MavNode/shidovalidator/shidonodesetup.md.
+- **Shido Node Setup on New Server:** The new server should have the Shido node installed and configured as per the [Shido Node Setup Guide](https://github.com/MavNode/shidovalidator/blob/main/shidonodesetup.md)
 - **Secure Storage:** Safeguard your mnemonic phrases and private keys during the migration process.
 
 ## Migration Steps
 
 ### 1. Prepare the New Server
 
-Begin by setting up your new server following the [Shido Node Setup Guide](https://github.com/ShidoGlobal/shidoupgrade_v2.0.0). Ensure that the node is fully synchronized and running correctly before proceeding.
+Begin by setting up your new server following the [Shido Node Setup Guide](https://github.com/MavNode/shidovalidator/blob/main/shidonodesetup.md). Ensure that the node is fully synchronized and running correctly before proceeding.
 
 ### 2. Backup and Secure the Old Server
 
